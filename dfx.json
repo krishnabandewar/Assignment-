@@ -1,0 +1,16 @@
+{
+  "canisters": {
+    "wallet": {
+      "type": "rust",
+      "package": "token_wallet_backend",
+      "candid": "src/token_wallet_backend/wallet.did"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "version": 1
+}

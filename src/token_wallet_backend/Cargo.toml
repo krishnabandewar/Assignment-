@@ -1,0 +1,13 @@
+[package]
+name = "token_wallet_backend"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+ic-cdk = { version = "0.8.0-beta.0" } # Use the latest version available
+ic-cdk-macros = { version = "0.8.0-beta.0" } # Add this line for macros
+serde = { version = "1.0", features = ["derive"] } # Add this line for serialization/deserialization
+candid = "0.7.0" # Use the latest version available
+
+[lib]
+crate-type = ["cdylib"]

@@ -1,0 +1,6 @@
+service : {
+     "send_token": (text, nat64) -> (variant { Ok: text; Err: text });
+     "check_balance": (text) -> (nat64) query;
+     "receive_token": (text, nat64) -> (variant { Ok: text; Err: text });
+     "init_balance": (nat64) -> (variant { Ok: text; Err: text });
+}
